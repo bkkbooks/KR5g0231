@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0231/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5g0231/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 枕中經
+  date: '2015-08-29 03:00:30.488977'
+  source:
+    repository: kanripo
+    path: KR5g0231
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0231_000-YP-C.yaml, hash: 'sha256:3dbe1f80c669d62c12c91565eec2ff582c05849dc26c43ff0015636513736b52'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0231_000-YP-C.markers.yaml, hash: 'sha256:1344d36136dff60a573ebfa13cbd0f1485c649666fe5eb259e0fbc9bf3c4253b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0231_YP-C_06weiji-01-0097a
+    span:
+    - body
+    - 0
+    - 664
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:55084d994e11ef28af256f441bf1f13766edfb79ef423762e65ee195084a185a

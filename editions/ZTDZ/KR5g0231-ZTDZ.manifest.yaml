@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0231/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0231/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 枕中經
+  date: '2015-08-29 03:00:30.488977'
+  source:
+    repository: kanripo
+    path: KR5g0231
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0231_000-ZTDZ.yaml, hash: 'sha256:bda31d60befed9cb68a2570e81c623ccb3f3425f4518111b2a6a6e4998566211'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0231_000-ZTDZ.markers.yaml, hash: 'sha256:57abd344334c7eebdce2c09240885ac7535ea39f47b5989bdc9e349a8cd91977'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0231_SJB_000-340458c
+    span:
+    - body
+    - 0
+    - 686
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:90d872845a2163d561d8e38426e06ccb5f1dcb34a79d1431cfdd3b07c060a3ef
