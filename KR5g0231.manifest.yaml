@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR5g0231/v1
 canonical_location: https://kanripo.org/bkk/KR5g0231/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 枕中經
   identifiers:
@@ -38,9 +38,9 @@ editions:
 - short: SJB
 assets:
   parts:
-  - {seq: 0, filename: KR5g0231_000.yaml, hash: 'sha256:3176ef0474443a858a648d6f4045adf270f7e647e05930101eae663db9a2587a'}
+  - {seq: 0, filename: KR5g0231_000.yaml, hash: 'sha256:f417a6360a81856f08b594823faef29edca21edbcc85d5ce1f73c626b6cd7850'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR5g0231_000.markers.yaml, hash: 'sha256:eea8824b0e75bc475dfd30b1a1fdc61e60184b83212ca38b64263312bbe6842a'}
+  - {seq: 0, role: markers, filename: assets/KR5g0231_000.markers.yaml, hash: 'sha256:3fcc12030c46b19d778792f500da18aa84372889f64bbec2dbad8c56ca681fa6'}
 table_of_contents:
 - ref:
     seq: 0
@@ -52,4 +52,7 @@ table_of_contents:
   label: juan 000
   type: section
   level: 1
-hash: sha256:60158151819d9d4c8d0a67bb2d185df2f29840c5b219a4575df81ac1e5c670a7
+hash: sha256:3ee27b753828e3752434ef590944d61469a0656b45215a9de371973677654acd
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
